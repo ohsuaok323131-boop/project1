@@ -3,7 +3,7 @@ import myClass.DB_Element;
 /**
  * MyApp 클래스의 설명을 작성하세요.
  *
- * @author (작성자 이름)
+ * @author (2025320028오수아, )
  * @version (버전 번호 또는 작성한 날짜)
  */
 public class MyApp
