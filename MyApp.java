@@ -28,7 +28,7 @@ public class MyApp
         System.out.println();
 
         Book b1 = new Book("B01", "Java Programming", "홍길동", "ABC", 2000);
-        Book b2 = new Book("B02", "Java Software Analysis and Design", "profsHwang", "SMU", 2023);
+        Book b2 = new Book("B02", "Software Analysis and Design", "profsHwang", "SMU", 2023);
         Book b3 = new Book("B03", "명품 자바프로그래밍", "황기태", "생능출판", 2025);
         Book b4 = new Book("B04", "소프트웨어테스트", "profsHwang", "SMU", 2024);
 
