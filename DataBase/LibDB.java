@@ -1,7 +1,7 @@
 package DataBase;
 import java.util.ArrayList;
 import myClass.DB_Element;
-
+import java.util.Iterator;
 /**
  * LibDB : 도서관 데이터베이스(UserDB, BookDB)를 나타내는 제네릭 클래스
  * T는 DB_Element의 자식 클래스(Book, User)만 가능하다.
@@ -35,13 +35,15 @@ public class LibDB<T extends DB_Element>
      * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
      *
      * @param  id : 찾을려는 요소의 번호
-     * @return    찾은 요소의 번호, 없으면 null
+     * @return    찾은 요소의 번호 x, 없으면 null
      */
     public T findElement(String id)
     {
-        for(T x:db){
-            if(x.getID().equals(id))
-                return x;
+        Iterator<T> item=db.iterator();
+        while(item.hasNext()){
+            T x=item.next();
+            if (x.getID().equals(id))
+            return x;
         }
         return null;
     }
