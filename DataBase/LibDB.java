@@ -5,8 +5,8 @@ import java.util.Iterator;
 /**
  * LibDB : 도서관 데이터베이스(UserDB, BookDB)를 나타내는 제네릭 클래스
  * T는 DB_Element의 자식 클래스(Book, User)만 가능하다.
- * @author (20253280028오수아)
- * @version (2026.10.3)
+ * @author (2025320028 오수아)
+ * @version (2026.10.03)
  */
 public class LibDB<T extends DB_Element>
 {
