@@ -35,7 +35,7 @@ public class LibDB<T extends DB_Element>
      * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
      *
      * @param  id : 찾을려는 요소의 번호
-     * @return    찾은 요소의 번호 x, 없으면 null
+     * @return    찾은 요소의 번호 , 없으면 null
      */
     public T findElement(String id)
     {
