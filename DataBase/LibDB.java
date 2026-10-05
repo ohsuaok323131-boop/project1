@@ -24,7 +24,6 @@ public class LibDB<T extends DB_Element>
      * 요소 x를 DB에 추가한다.
      *
      * @param  x : DB에 추가할 요소
-     * @return    없음
      */
     public void addElement(T x)
     {
@@ -35,7 +34,7 @@ public class LibDB<T extends DB_Element>
      * getID()가 id와 같은 요소를 찾는다. 
      *
      * @param  id : 찾을려는 요소의 번호
-     * @return    찾은 요소의 번호 , 없으면 null
+     * @return    찾은 요소 , 없으면 null
      */
     public T findElement(String id)
     {
@@ -51,8 +50,6 @@ public class LibDB<T extends DB_Element>
     /**
      * DB에 저장된 모든 요소를 출력한다. 
      *
-     * @param  없음
-     * @return  없음
      */
     public void printAllElements()
     {
