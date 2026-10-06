@@ -2,7 +2,7 @@ package myClass;
 
 
 /**
- * Book 클래스의 설명을 작성하세요.
+ * Book: 도서관의 책 객체를 나타내는 클래스. DB_Element를 상속받으며 책 등록 번호(book ID)를 고유번호로 사용한다.
  *
  * @author (2025957111 김가희)
  * @version (2026.10.04)
